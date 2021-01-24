@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Struttura dati</title>
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+
+    <!-- Filtra per tipo di carta -->
+    <div class="filter-by-cardType">
+      <label for="card-select">Filtra per tipo di carta:</label>
+      <select id="card-select" name="">
+        <option value="nothing"></option>
+      </select>
+    </div>
+    <!-- /Filtra per tipo di carta -->
+
+    <!-- Filtra per potenza carta -->
+    <div class="filter-by-power">
+      <label for="power-select">Filtra per Potenza:</label>
+      <select id="power-select" name="">
+        <option value="nothing"></option>
+      </select>
+    </div>
+    <!-- /Filtra per potenza carta -->
+
+
+    <!-- JS - mostra carte selezionate/filtrate -->
+    <ul id="lista-carte">
+
+    </ul>
+    <!-- /JS - mostra carte selezionate/filtrate -->
+
+    <script src="js/script.js" charset="utf-8"></script>
+
+  </body>
+</html>
